@@ -1,4 +1,4 @@
-# dronetsim
+# VENUS
 Virtualized ENvironment for Uav Simulation
 
 
