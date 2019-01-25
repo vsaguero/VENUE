@@ -1,4 +1,4 @@
-![](/images/logo.png =250x)
+![](/images/logo.png)
 ## Virtualized ENvironment for Uav Simulation
 
 
