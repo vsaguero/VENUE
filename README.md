@@ -1,4 +1,5 @@
-<img src="/images/logo.png" width="500">
+<img src="/images/logo.png" width="300">
+
 ## Virtualized ENvironment for Uav Simulation
 
 
