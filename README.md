@@ -1,4 +1,4 @@
-![](/images/logo.png | width=100)
+<img src="/images/logo.png" width="100">
 ## Virtualized ENvironment for Uav Simulation
 
 
