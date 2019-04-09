@@ -21,4 +21,3 @@ cd ns3
 cd ns3
 ./waf configure --enable-tests
 ./tests.py
-
