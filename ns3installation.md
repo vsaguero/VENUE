@@ -1,5 +1,10 @@
+# VENUS
+
 Requirements: Ubuntu 16.04 installation (Desktop or Server), with internet (physical or virtual machine)
 
+ALTERNATIVE I (Recommended for users who do not plan to develop their own applications.)
+
+ALTERNATIVE II:
 ns3 installation:
 ```shell
 lxc launch ubuntu:16.04 ns3
