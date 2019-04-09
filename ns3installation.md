@@ -1,11 +1,11 @@
 ns3 installation:
-```console
+```shell
 lxc launch ubuntu:16.04 ns3
 lxc start ns3 
 lxc exec ns3 bash
 ```
 Inside the container
-```console
+```shell
 apt update
 apt install python
 apt install gcc 
@@ -13,14 +13,14 @@ apt install g++
 ```
 
 Download ns3
-```console
+```shell
 mkdir ns3
 cd ns3
-wget 
-tar
-cd ns3
+wget https://www.nsnam.org/releases/ns-allinone-3.29.tar.bz2
+tar xvjf ns-allinone-3.29.tar.bz2
+cd ns-allinone-3.29
 ./build.py
-cd ns3
+cd ns-3.29
 ./waf configure --enable-tests
 ./tests.py
 ```
