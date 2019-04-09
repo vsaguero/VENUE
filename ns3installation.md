@@ -1,11 +1,11 @@
 ns3 installation:
-```shell
+```console
 lxc launch ubuntu:16.04 ns3
 lxc start ns3 
 lxc exec ns3 bash
 ```
 Inside the container
-```shell
+```console
 apt update
 apt install python
 apt install gcc 
@@ -13,7 +13,7 @@ apt install g++
 ```
 
 Download ns3
-```shell
+```console
 mkdir ns3
 cd ns3
 wget 
