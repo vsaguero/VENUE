@@ -1,4 +1,4 @@
-## Virtualized ENvironment for Uav Simulation
+## Virtualized ENvironment for Uav Emulation
 
 
 _Key words: UAV (Unmanned Aerial Vehicle), Network Simulator_
