@@ -1,9 +1,12 @@
-# VENUS: Virtualized ENvironment for Uav Simulation
+# VENUE: Virtualized ENvironment for Uav Emulation
 
 Requirements: Ubuntu 16.04 installation (Desktop or Server), with internet (physical or virtual machine)
 
 ### ALTERNATIVE I 
 (*Recommended for users who do not plan to develop their own applications*)
+In the following link you can download a virtual machine with the platform installed and configured:
+
+LINK COMING SOON
 
 ### ALTERNATIVE II 
 (*Recommended for users who plan to develop their own applications*)
