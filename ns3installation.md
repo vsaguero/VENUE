@@ -4,6 +4,7 @@ Requirements: Ubuntu 16.04 installation (Desktop or Server), with internet (phys
 
 ### ALTERNATIVE I 
 (*Recommended for users who do not plan to develop their own applications*)
+
 In the following link you can download a virtual machine with the platform installed and configured:
 
 LINK COMING SOON
