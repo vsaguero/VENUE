@@ -7,6 +7,6 @@ This repository provides a Virtual Machine (VM) that incorporates the VENUE (Vir
 
 This work is based on [Linux Containers](https://linuxcontainers.org/) and [Ns3](https://www.nsnam.org/), more specifically in [HOWTO Use Linux Containers to set up virtual networks](https://www.nsnam.org/wiki/HOWTO_Use_Linux_Containers_to_set_up_virtual_networks) tutorial from the ns3 wiki.
 
-Implementation details and motivating scenarios for using this tool can be found in the following article: [VENUE article](https://ieeexplore.ieee.org/document/8880644)
+Implementation details and motivating scenarios can be found in the following article: [VENUE article](https://ieeexplore.ieee.org/document/8880644)
 
 Victor Sanchez-Aguero
