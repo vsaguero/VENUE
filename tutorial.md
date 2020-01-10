@@ -59,5 +59,18 @@ imdea@venue:~$ lxc list
 Similar to the VM, each container has two network interfaces. eth0 interface is configured in NAT mode to provide internet connectivity and being able to install any tool for future experiments. The eth1 interface is statically configured and will be used to connect the containers through the network created using ns-3.
 
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
+
+```console
+imdea@venue:~$ cd ns3/
+imdea@venue:~/ns3$ cd ns-3-allinone/
+imdea@venue:~/ns3/ns-3-allinone$ cd ns-3.30/
+imdea@venue:~/ns3/ns-3-allinone/ns-3.30$ sudo ./waf --run scratch/helloworld
+[sudo] password for imdea:
+Waf: Entering directory `/home/imdea/ns3/ns-3-allinone/ns-3.30/build'
+Waf: Leaving directory `/home/imdea/ns3/ns-3-allinone/ns-3.30/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.669s)
+```
+
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
 </ol>
