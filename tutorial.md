@@ -77,6 +77,17 @@ Please note that for the network to remain active, the process cannot be closed.
 
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
 ```console
+imdea@venue:~$ lxc list
++------+---------+------+------+------------+-----------+
+| NAME |  STATE  | IPV4 | IPV6 |    TYPE    | SNAPSHOTS |
++------+---------+------+------+------------+-----------+
+| uav1 | STOPPED |      |      | PERSISTENT | 0         |
++------+---------+------+------+------------+-----------+
+| uav2 | STOPPED |      |      | PERSISTENT | 0         |
++------+---------+------+------+------------+-----------+
+```
+
+```console
 imdea@venue:~$ lxc exec uav1 bash
 root@uav1:~# ping 10.0.1.2 -c 5
 64 bytes from 10.0.1.2: icmp_seq=1 ttl=64 time=1.68 ms
