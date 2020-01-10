@@ -19,7 +19,15 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
 
 By default, the two LXD containers of this experiment are started. To check their status, use the following command:
 
-```
+```console
+imdea@venue:~$ lxc list
++------+---------+------+------+------------+-----------+
+| NAME |  STATE  | IPV4 | IPV6 |    TYPE    | SNAPSHOTS |
++------+---------+------+------+------------+-----------+
+| uav1 | STOPPED |      |      | PERSISTENT | 0         |
++------+---------+------+------+------------+-----------+
+| uav2 | STOPPED |      |      | PERSISTENT | 0         |
++------+---------+------+------+------------+-----------+
 ```
 
 In case the output is not similar to the previous output, it is advised to start the containers using LXD commands.
