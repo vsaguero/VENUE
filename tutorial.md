@@ -6,6 +6,7 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
 
 <ol>
   <li><h4>First step: Start the VM</h4></li>
+  
   The first step is to start the VM. Its credentials are:
 
   ```
@@ -15,6 +16,14 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
   Once the machine has been started, it can be accessed using ssh. The VM has two interfaces, first one in bridge mode connected to a physical interface of the host (which should allow entering through ssh); and an interface in NAT mode which gives internet connectivity enabling quick installation and configuration of new software.
 
 <li><h4>Second step: Start the Linux Containers</h4></li>
+
+By default, the two LXD containers of this experiment are started. To check their status, use the following command:
+
+```
+```
+
+In case the output is not similar to the previous output, it is advised to start the containers using LXD commands.
+
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
 </ol>
