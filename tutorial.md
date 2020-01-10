@@ -60,6 +60,8 @@ Similar to the VM, each container has two network interfaces. eth0 interface is 
 
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
 
+To start the ns-3 network type the following commands:
+
 ```console
 imdea@venue:~$ cd ns3/
 imdea@venue:~/ns3$ cd ns-3-allinone/
