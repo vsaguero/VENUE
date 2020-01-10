@@ -6,7 +6,7 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
 
 <ol>
   <li><h4>First step: Start the VM</h4></li>
-<li>Second step: Start the Linux Containers</li>
-<li>Third step: Start the ns-3 wireless emulated network</li>
-<li>Fourth step: Check the connectivity between the LXCs</li>
+<li><h4>Second step: Start the Linux Containers</h4></li>
+<li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
+<li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
 </ol>
