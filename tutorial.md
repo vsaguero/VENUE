@@ -30,6 +30,17 @@ imdea@venue:~$ lxc list
 +------+---------+------+------+------------+-----------+
 ```
 
+By default, the LXCs do not start since they need a specific configuration. To properly configure the environment use the following script:
+
+```console
+imdea@venue:~$ sudo sh environment.sh static 2
+[sudo] password for imdea:
+static
+Setting static environment
+Set 'tap-uav1' persistent and owned by uid 0
+Set 'tap-uav2' persistent and owned by uid 0
+```
+
 In case the output is not similar to the previous output, it is advised to start the containers using LXD commands.
 
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
