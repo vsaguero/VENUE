@@ -17,7 +17,7 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
 
 <li><h4>Second step: Start the Linux Containers</h4></li>
 
-By default, the two LXD containers of this experiment are started. To check their status, use the following command:
+In this experiment, it is necessary to use two containers. To check their status, use the following command:
 
 ```console
 imdea@venue:~$ lxc list
@@ -34,12 +34,15 @@ By default, the LXCs do not start since they need a specific configuration. To p
 
 ```console
 imdea@venue:~$ sudo sh environment.sh static 2
-[sudo] password for imdea:
-static
-Setting static environment
-Set 'tap-uav1' persistent and owned by uid 0
-Set 'tap-uav2' persistent and owned by uid 0
 ```
+
+Now, everything is ready to start the containers:
+```console
+imdea@venue:~$ lxc start uav1
+imdea@venue:~$ lxc start uav2
+```
+
+
 
 In case the output is not similar to the previous output, it is advised to start the containers using LXD commands.
 
