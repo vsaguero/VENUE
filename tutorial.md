@@ -73,6 +73,8 @@ Waf: Leaving directory `/home/imdea/ns3/ns-3-allinone/ns-3.30/build'
 Build commands will be stored in build/compile_commands.json
 'build' finished successfully (1.669s)
 ```
+Please note that for the network to remain active, the process cannot be closed. From now on, any operation has to be performed on another terminal.
 
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
+
 </ol>
