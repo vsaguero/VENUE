@@ -1,4 +1,4 @@
-TUTORIAL: First interaction
+##TUTORIAL: First interaction
 
 This tutorial illustrates how to work with the VENUE platform.
 
