@@ -76,5 +76,17 @@ Build commands will be stored in build/compile_commands.json
 Please note that for the network to remain active, the process cannot be closed. From now on, any operation has to be performed on another terminal.
 
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
+```console
+imdea@venue:~$ lxc exec uav1 bash
+root@uav1:~# ping 10.0.1.2 -c 5
+64 bytes from 10.0.1.2: icmp_seq=1 ttl=64 time=1.68 ms
+64 bytes from 10.0.1.2: icmp_seq=2 ttl=64 time=1.43 ms
+64 bytes from 10.0.1.2: icmp_seq=3 ttl=64 time=2.43 ms
+64 bytes from 10.0.1.2: icmp_seq=4 ttl=64 time=1.33 ms
+64 bytes from 10.0.1.2: icmp_seq=5 ttl=64 time=3.31 ms
 
+--- 10.0.1.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 1.336/2.040/3.314/0.744 ms
+```
 </ol>
