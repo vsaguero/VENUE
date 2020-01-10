@@ -8,8 +8,9 @@ First, it is required to download the [Virtual Machine](www.google.es) (VM) cont
   <li><h4>First step: Start the VM</h4></li>
   The first step is to start the VM. Its credentials are:
 
-  `login: imdea`
-  `password imdea`
+  `login: imdea
+  
+   password imdea`
 
 <li><h4>Second step: Start the Linux Containers</h4></li>
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
