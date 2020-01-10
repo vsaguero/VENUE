@@ -30,7 +30,7 @@ imdea@venue:~$ lxc list
 +------+---------+------+------+------------+-----------+
 ```
 
-By default, the LXCs do not start since they need a specific configuration. To properly configure the environment use the following script:
+By default, the LXCs do not start since they need a specific configuration. To properly configure the environment use the following script (this script also provides some configuration needed to start the ns-3 network explained in the next section.):
 
 ```console
 imdea@venue:~$ sudo sh environment.sh static 2
