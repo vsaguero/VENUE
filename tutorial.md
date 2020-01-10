@@ -56,7 +56,7 @@ imdea@venue:~$ lxc list
 |      |         | 10.0.1.2 (eth1)                |                                               |            |           |
 +------+---------+--------------------------------+-----------------------------------------------+------------+-----------+
 ```
-Similar to the VM, each container has two network interfaces. eth0 interface is configured in NAT mode to provide internet connectivity to and to be able to install any tool for future experiments. The eth1 interface is statically configured and will be used to connect the containers through the network created using ns-3.
+Similar to the VM, each container has two network interfaces. eth0 interface is configured in NAT mode to provide internet connectivity and being able to install any tool for future experiments. The eth1 interface is statically configured and will be used to connect the containers through the network created using ns-3.
 
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
 <li><h4>Fourth step: Check the connectivity between the LXCs</h4></li>
