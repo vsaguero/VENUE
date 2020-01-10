@@ -42,8 +42,20 @@ imdea@venue:~$ lxc start uav1
 imdea@venue:~$ lxc start uav2
 ```
 
+After that, the containers should be working, and their state should be running.
 
-
+```console
+imdea@venue:~$ lxc list
++------+---------+--------------------------------+-----------------------------------------------+------------+-----------+
+| NAME |  STATE  |              IPV4              |                     IPV6                      |    TYPE    | SNAPSHOTS |
++------+---------+--------------------------------+-----------------------------------------------+------------+-----------+
+| uav1 | RUNNING | 10.236.55.141 (eth0)           | fdd2:3294:121f:350f:216:3eff:fe54:1366 (eth0) | PERSISTENT | 0         |
+|      |         | 10.0.1.1 (eth1)                |                                               |            |           |
++------+---------+--------------------------------+-----------------------------------------------+------------+-----------+
+| uav2 | RUNNING | 10.236.55.133 (eth0)           | fdd2:3294:121f:350f:216:3eff:fee5:a042 (eth0) | PERSISTENT | 0         |
+|      |         | 10.0.1.2 (eth1)                |                                               |            |           |
++------+---------+--------------------------------+-----------------------------------------------+------------+-----------+
+```
 In case the output is not similar to the previous output, it is advised to start the containers using LXD commands.
 
 <li><h4>Third step: Start the ns-3 wireless emulated network</h4></li>
